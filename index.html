@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utility Bill Portal</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="header">
+        <img src="images/sunworks-grey-orange.svg">
+        <h1>Utility Bill Portal
+        </h1>
+    </div>
+<div class="section1">
+   
+
+    
+    <div class="container">
+        <div class="transparent"></div>
+      <div class="form">
+        <div class="BillHeading">
+          <h1 class="BillTitle">
+            Upload Your Electric Bill
+          </h1>
+          <p class="BillTitleSub">
+            Please upload your bill and confirm your Identity.
+          </p>
+        </div>
+        <div class="writtenInfo">
+            <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data">
+              <input type="hidden" name="access_key" value="6f38b2ab-f1ec-45a7-9acf-fc7f4148d301">
+             
+              
+              <div class="inputs-container">
+                <div class="input-wrapper">
+                  <label for="fname" >First Name</label>
+                  <input type="text" name="name" id="first_name" placeholder="John"  />
+                </div>
+                <div class="input-wrapper">
+                  <label for="lname" >Last Name</label>
+                  <input type="text" name="last_name" id="lname" placeholder="Doe" />
+                </div>
+                <div class="input-wrapper">
+                  <label for="number">Last 4 digits of SSN</label>
+                  <input type="password" name="number" id="number" placeholder="****"  />
+                </div>
+              </div>
+          </div>
+            <div class="bill">
+              <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Upload Photo (.jpg or .png)</label>
+              <input type="file" id="attachment" name="attachment" accept="image/jpeg,image/png, image/pdf" required />
+            </div>
+            <div class="submitBill">
+              <button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+               Submit your Bill
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <h1 class="howItWorks">How it Works</h1>
+  <div class="section2">
+    
+    <div class="theSteps">
+    <div class="step1">
+        <img class="check" src="images/check-mark.png">
+        <div class="number1">
+            <h1>-1-</h1>
+        <div class="stepTitle1">
+            <h2>Make the appointment</h2>
+        <div class="stepDescription1">
+            <h3>
+        
+                You have successfully scheduled an appointment with the specialist.</h3>
+        </div>
+        </div>
+        </div>
+    </div> 
+    <div class="step2">
+        <img class="herelogo" src="images/navigation.png">
+        <div class="number2">
+            <h1>-2-</h1>
+        <div class="stepTitle2">
+            <h2>Upload Your Utility Bill</h2>
+        <div class="stepDescription">
+            <h3>Now, it's time to upload your utility bill to the portal.</h3>
+        </div>
+        </div>
+        </div>
+    </div> 
+    <div class="step3">
+        <img class="next" src="images/development.png">
+        <div class="number3">
+            <h1>-3-</h1>
+        <div class="stepTitle3">
+            <h2>Phone Call With Specialist</h2>
+        <div class="stepDescription">
+            <h3>Next, speak with the specialist to learn how you can save 40-50% off your electricity bill</h3>
+        </div>
+        </div>
+        </div>
+    </div> 
+  </div>
+  </div>
+<h1 class="latestNews">Latest News</h1>
+  <div class="section3">
+    
+    <div class="articles">
+    <div class="article1">
+        <div class="articleTitle">
+            <a href="https://www.sj-r.com/story/news/politics/state/2023/02/06/ameren-illinois-files-for-electric-and-gas-rate-increases/69862558007/">Ameren  cites clean energy act, COVID-19, war for electric, gas rate hike </a>
+           <img src="images/amerenYellow.webp">
+        </div>
+    </div>
+        <div class="article2">
+            <div class="articleTitle">
+                <a href="https://news.wttw.com/2023/01/18/illinois-utilities-seek-increase-rates-across-state">Illinois Utilities Seek to Increase Rates Across the State</a>
+               <img src="images/electricline.jpg">
+            </div>
+        </div>
+            <div class="article3">
+                <div class="articleTitle">
+                    <a href="https://www.usatoday.com/story/money/personalfinance/2023/01/24/electricity-prices-inflation/11089430002/">Electricity bills may continue to shock you even as overall inflation eases.</a>
+                   <img src="images/santaElectric.webp">
+                </div>
+            </div>
+                <div class="article4">
+                    <div class="articleTitle">
+                        <a href="https://fox2now.com/news/illinois/ameren-illinois-prices-up-126-compared-to-last-year/">Ameren Illinois’ prices up 126% compared to last year. Find out why</a>
+                       <img src="images/truckworker.webp">
+                    </div>
+                </div>
+        </div>
+    </div>
+  <div class="footer">
+    <div class="left">
+      <img class="logo" src="images/sunworks-grey-orange.svg">
+    </div>
+    <div class="right">
+      <img src="images/phone-call.png">
+      <p>(815)697-9968</p>
+      <img src="images/gmail.png">
+      <p>Sunworksutility@gmail.com</p>
+    </div>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>

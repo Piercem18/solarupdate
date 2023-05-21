@@ -1,0 +1,239 @@
+
+.header img{
+    height:70px;
+}
+*{
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+.header>h1{
+    padding-right:100px ;
+}
+.section1{
+    background-image:url(images/solarheaderflipped.jpg);
+    height:55vh;
+    background-size: 100%;
+    background-position: center;
+}
+.section2{
+    background-color: rgba(159, 180, 199, 0.2);
+    box-shadow: 10px 10px 10px 10px  rgba(0,0,0,0.2);
+}
+.container,.transparent{
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+
+}
+.form{
+   background-color: rgba(255, 255, 255, 0.7);
+    
+    height:450px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+::placeholder{
+  font-size: 20px;
+}
+input{
+    height: 50px;
+    border-radius: 5px;
+    font-size: 17px;
+  
+}
+label{
+    border:gray 300px;
+    border-radius: 10px; 
+    
+}
+.writtenInfo, label{
+    display: flex;
+padding-top: 10px;
+    flex-direction: row;
+    padding-bottom: 0px;
+}
+.inputs-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-wrapper {
+    flex: 1;
+    margin-right: 10px; 
+  }
+  .inputs-container >input{
+    color: grey;
+    border-radius: 10px;
+    height: 50px;
+  }
+ 
+  
+
+
+.billHeading, .BillTitle, .BillTitleSub{
+    display: flex;
+    justify-content: center;
+
+}
+label{
+    font-size: 20px;;
+}
+#attachment{
+    font-size: 18px;
+}
+.BillTitleSub{
+    color:grey;
+    font-size: 25px ;
+}
+.bill{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+button{
+   
+    color:white;
+    background-color:#2C365E;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+button:hover{
+  height:60px;
+  width:310px;
+}
+.submitBill{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.theSteps{
+    display: flex;
+    justify-content: space-around;
+   padding:20px;
+}
+.check, .herelogo, .next{
+    height:50px;
+    
+}
+
+.step1, .number1, .stepTitle1 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.step2, .number2, .stepTitle2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .step3, .number3, .stepTitle3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .howItWorks{
+    display: flex;
+    justify-content: center;
+margin-top: 80px;
+  }
+  .articles >img{
+    height:250px;
+    width:300px;
+    margin-top: 20px;
+    padding: 20px;
+    
+  }
+ 
+  .section3{
+    height: 40vh;
+    width: 100vw;
+    background-color:rgba(236, 232, 232, 0.849);
+    margin:0px;
+   
+    box-shadow: 10px 10px 10px 10px  rgba(0,0,0,0.2);
+  }
+  
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: column;
+    justify-items: center;
+    gap: 20px; /* Adjust the gap as needed */
+    padding: 30px 50px; /* Adjust the padding as needed */
+    
+  }
+  
+  .articleTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+  }
+  
+  .articleTitle a {
+    text-decoration:underline;
+    color: black;
+    font-size: 20px;
+    color:#2C365E;
+  
+  }
+  
+  :hover.articleTitle a {
+font-weight: bold;
+  }
+  .articleTitle img {
+    height: 250px;
+    width: 300px;
+    margin-top: 20px; /* Adjust the top margin as needed */
+  }
+  
+  
+  .latestNews{
+    display: flex;
+    justify-content: center;
+padding-top: 50px;
+padding-bottom: 35px;
+  }
+
+  .footer{
+    background-color: #2C365E;
+    height:100px;
+   
+  }
+.footer p{
+font-size: 20px;
+color:white;
+margin-right: 20px;
+}
+.footer img{
+  height:30px;
+  color: white;
+}
+.footer,.left, .right{
+  display:flex;
+  flex-direction: row;
+  gap:30px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.left>.logo{
+  height:70px;
+  margin-left: 20px;
+}
