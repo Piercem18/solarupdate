@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     
@@ -24,6 +25,8 @@
     <div class="container">
         <div class="transparent"></div>
       <div class="form">
+        <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="access_key" value="6f38b2ab-f1ec-45a7-9acf-fc7f4148d301">
         <div class="BillHeading">
           <h1 class="BillTitle">
             Upload Your Electric Bill
@@ -32,11 +35,7 @@
             Please upload your bill and confirm your Identity.
           </p>
         </div>
-        <div class="writtenInfo">
-            <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data">
-              <input type="hidden" name="access_key" value="6f38b2ab-f1ec-45a7-9acf-fc7f4148d301">
-             
-              
+        <div class="writtenInfo"></div>
               <div class="inputs-container">
                 <div class="input-wrapper">
                   <label for="fname" >First Name</label>
@@ -51,7 +50,7 @@
                   <input type="password" name="number" id="number" placeholder="****"  />
                 </div>
               </div>
-          </div>
+          
             <div class="bill">
               <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Upload Photo (.jpg or .png)</label>
               <input type="file" id="attachment" name="attachment" accept="image/jpeg,image/png, image/pdf" required />
