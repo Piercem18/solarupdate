@@ -32,7 +32,7 @@
 .form{
    background-color: rgba(255, 255, 255, 0.7);
     
-    height:450px;
+    height:50vh;
     padding: 30px;
     border-radius: 10px;
     margin-right: 20px;
@@ -42,7 +42,7 @@
   font-size: 20px;
 }
 input{
-    height: 50px;
+    height: 5vh;
     border-radius: 5px;
     font-size: 17px;
   
@@ -70,7 +70,7 @@ padding-top: 10px;
   .inputs-container >input{
     color: grey;
     border-radius: 10px;
-    height: 50px;
+    height: 5vh;
   }
  
   
@@ -103,13 +103,13 @@ button{
     background-color:#2C365E;
     margin-top: 30px;
     border-radius: 10px;
-    height: 50px;
-    width: 300px;
+    height: 5vh;
+    width: 40vw;
     font-size: 20px;
 }
 button:hover{
-  height:60px;
-  width:310px;
+  height:7vh;
+  width:45vw;
 }
 .submitBill{
     display: flex;
@@ -152,13 +152,7 @@ button:hover{
     justify-content: center;
 margin-top: 80px;
   }
-  .articles >img{
-    height:250px;
-    width:300px;
-    margin-top: 20px;
-    padding: 20px;
-    
-  }
+  
  
   .section3{
     height: 40vh;
@@ -199,9 +193,9 @@ margin-top: 80px;
 font-weight: bold;
   }
   .articleTitle img {
-    height: 250px;
-    width: 300px;
-    margin-top: 20px; /* Adjust the top margin as needed */
+    height: 20vh;
+    width: 20vw;
+    margin-top: 20px; 
   }
   
   
@@ -223,7 +217,7 @@ color:white;
 margin-right: 20px;
 }
 .footer img{
-  height:30px;
+  height:3vh;
   color: white;
 }
 .footer,.left, .right{
@@ -234,6 +228,6 @@ margin-right: 20px;
   margin-top: 20px;
 }
 .left>.logo{
-  height:70px;
+  height:7vh;
   margin-left: 20px;
 }
