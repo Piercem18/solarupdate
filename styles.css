@@ -231,3 +231,30 @@ margin-right: 20px;
   height:7vh;
   margin-left: 20px;
 }
+/* Styles for mobile screens */
+@media (max-width: 600px) {
+  /* Adjust the header */
+  .header {
+    text-align: center;
+  }
+
+  /* Adjust the form */
+  .form {
+    margin: 0 auto;
+    max-width: 300px;
+  }
+
+  /* Adjust the section titles */
+  .howItWorks,
+  .latestNews {
+    text-align: center;
+  }
+
+  /* Adjust the article layout */
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
+
