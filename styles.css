@@ -124,7 +124,9 @@ button:hover{
 .theSteps{
     display: flex;
     justify-content: space-around;
-   gap:50px;
+   gap:40px;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 .check, .herelogo, .next{
     height:50px;
