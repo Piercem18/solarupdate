@@ -1,23 +1,28 @@
 
-.header img{
-    height:70px;
+.section1 img{
+    height:120px;
 }
 *{
     font-family: 'Inter', sans-serif;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Inter', sans-serif;
-}
-.header>h1{
-    padding-right:100px ;
-}
+
 .section1{
     background-image:url(images/solarheaderflipped.jpg);
+    background-repeat: no-repeat;
     height:55vh;
     background-size: 100%;
     background-position: center;
+    display: flex;
+}
+
+.section1, .heading, .container{
+  display:flex;
+  justify-content: space-between;
+}
+.heading{
+  display: flex;
+  align-content: center;
+  margin-left: 3vw;
 }
 .section2{
     background-color: rgba(159, 180, 199, 0.2);
@@ -31,8 +36,8 @@
 }
 .form{
    background-color: rgba(255, 255, 255, 0.7);
-    
-    height:50vh;
+    width: auto;
+    height:45vh;
     padding: 30px;
     border-radius: 10px;
     margin-right: 20px;
@@ -208,7 +213,7 @@ padding-bottom: 35px;
 
   .footer{
     background-color: #2C365E;
-    height:100px;
+    
    
   }
 .footer p{
@@ -217,7 +222,7 @@ color:white;
 margin-right: 20px;
 }
 .footer img{
-  height:3vh;
+  height:5vh;
   color: white;
 }
 .footer,.left, .right{
@@ -225,36 +230,96 @@ margin-right: 20px;
   flex-direction: row;
   gap:30px;
   justify-content: space-between;
-  margin-top: 20px;
+  align-items: center;
+ 
+  
 }
+
 .left>.logo{
-  height:7vh;
+  height:10vh;
   margin-left: 20px;
 }
 /* Styles for mobile screens */
-@media (max-width: 600px) {
-  /* Adjust the header */
-  .header {
-    text-align: center;
+@media (max-width: 1150px) {
+.container{
+  width: 175px;
+ 
+}
+  .section1 img{
+    height: 150px;
+    width: 150px;
+}
+  .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 200px;
+   
   }
-
-  /* Adjust the form */
+  
   .form {
-    margin: 0 auto;
-    max-width: 300px;
+    flex-direction: column;
+    height: auto;
   }
-
+  
+  .inputs-container {
+    flex-direction: column;
+  }
+  
+  .input-wrapper {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .inputs-container > input {
+    width: 100%;
+  }
+  
+  .bill {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  
   /* Adjust the section titles */
   .howItWorks,
   .latestNews {
     text-align: center;
+    margin-top:20px;
+    padding: 10px;
   }
 
   /* Adjust the article layout */
   .articles {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
+    display: flex;
+  flex-direction: column;
   }
+  .section3{
+    height: auto;
+  }
+.section1{
+  height: auto;
+  background-size: 200%;
+  
 }
-
+}
+@media (max-width: 650px) {
+ 
+    .section1 img{
+      height: 100px;
+      width: 100px;
+      margin-left: 0;
+  }
+  .heading h1{
+    font-size: 20px;
+    width: 1vw;
+    margin-left: 1vw;
+  }
+  
+}
