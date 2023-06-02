@@ -323,3 +323,90 @@ margin-right: 20px;
   }
   
 }
+@media (max-width: 415px) {
+ 
+  .section1 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 0;
+}
+.heading h1{
+  font-size: 17px;
+  width: 80px;
+  height:80px;
+  margin-left: 1vw;
+}
+input{
+ height:15px;
+}
+::placeholder{
+  font-size: 15px;
+}
+label{
+  margin-left: 10px;
+  font-size: 15px;
+}
+.BillHeading{
+  font-size: 10px;
+}
+.BillTitleSub{
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+.submitBill{
+  padding: 15px;
+  font-size: 10px;
+}
+.bill{
+  margin: 0;
+  padding: 0;
+ 
+}
+.bill label{
+  font-size: 15px;
+}
+.container{
+  margin-top: 5vh;
+  margin-left: 3vw;
+  width: 50px;
+ 
+}
+
+.section1{
+background-size: 250%;
+background-position: -175px 0;
+}
+
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+#attachment{
+  height: 50px;
+  width: 75px;
+}
+button{
+  font-size: 13px;
+}
+.howItWorks, .latestNews{
+  font-size: 20px;
+  padding: 0px;
+}
+.section2{
+  font-size: 10px;
+}
+.section3 a{
+  font-size: 15px;
+}
+.section3 img{
+  width:150px;
+}
+.footer p{
+font-size:15px;
+}
+
+}
+
